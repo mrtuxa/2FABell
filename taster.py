@@ -16,7 +16,7 @@ def main():
     if value > 0:
 
       if GPIO.input(gpio):
-        print "gedrueckt"
+        print("gedrueckt")
         main()
 
     time.sleep(0.03)
